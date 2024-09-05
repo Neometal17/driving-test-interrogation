@@ -32,7 +32,7 @@ function App() {
         <div className='parrafix'><b>Opcion 2:</b> {pregunta.ALTERNATIVA_2}</div>
         <div className='parrafix'><b>Opcion 3:</b> {pregunta.ALTERNATIVA_3}</div>
         <div className='parrafix'><b>Opcion 4:</b> {pregunta.ALTERNATIVA_4}</div>
-        <div className='parrafix'><img src={`src\\assets\\images\\question-${pregunta.NUMERO}.png`}/></div>
+        <div className='parrafix'><img src={`images/question-${pregunta.NUMERO}.png`}/></div>
         <div className='parrafix-center result-color'><b>Respuesta:</b> {pregunta.RESPUESTA}</div>
       </div>
     </div>
